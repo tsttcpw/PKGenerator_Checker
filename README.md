@@ -8,9 +8,9 @@ Stupid Python3 Script that Generates random private keys and checks them in real
 <strong>BIG OL DISCLAIMER</strong>:  I cannot emphasize this enough - this is for **DEMONSTRATION** and **ENTERTAINMENT** purposes ... you will have much better success finding employment, buying bitcoin and holding it than to have this little goofy script find a populated private key with a balance....though if you happen to find a populated address you may as well call the pressess and let em know you beat the odds with that extreme luck.
 
 1. Clone this script - download it or in the terminal use `git clone https://github.com/Frankenmint/PKGenerator_Checker/`
-2. Let's install some dependencies!  `pip install ecdsa hashlib base58 requests cfscrape`
+2. Let's install some dependencies!  `pip3 install ecdsa base58 requests cfscrape && pip3 install --user python2-secrets`
 3. Navigate to the directory: `cd PKGenerator_Checker`
-5. Run it! `python PkMaker.py`
+5. Run it! `python3 PkMaker.py`
 
 # Notes
 
